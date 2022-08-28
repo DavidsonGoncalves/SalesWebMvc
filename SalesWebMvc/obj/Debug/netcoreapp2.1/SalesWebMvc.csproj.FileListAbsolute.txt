@@ -34,4 +34,8 @@ D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc
 D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.pdb
 D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.genruntimeconfig.cache
 D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.csproj.CopyComplete
-D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Department\Index.cshtml.g.cs
+D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Create.cshtml.g.cs
+D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Delete.cshtml.g.cs
+D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Details.cshtml.g.cs
+D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Edit.cshtml.g.cs
+D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
