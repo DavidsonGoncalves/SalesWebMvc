@@ -1,4 +1,5 @@
 using System;
+using SalesWebMvc.Models.ViewModels;
 
 namespace SalesWebMvc.Models.ViewModels
 {

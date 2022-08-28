@@ -20,7 +20,7 @@ using SalesWebMvc;
 #line hidden
 #line 2 "D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMvc\SalesWebMvc\Views\_ViewImports.cshtml"
 using SalesWebMvc.Models;
-
+    using SalesWebMvc.Models.ViewModels;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2979483023411c4f00834e666c4a8526a0471a5f", @"/Views/Shared/Error.cshtml")]
