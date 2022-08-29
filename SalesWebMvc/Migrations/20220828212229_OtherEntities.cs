@@ -9,7 +9,7 @@ namespace SalesWebMvc.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "seller",
+                name: "Seller",
                 columns: table => new
                 {
                     id = table.Column<int>(nullable: false)
@@ -32,7 +32,7 @@ namespace SalesWebMvc.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "SalessRecord",
+                name: "SalesRecord",
                 columns: table => new
                 {
                     id = table.Column<int>(nullable: false)
@@ -55,7 +55,7 @@ namespace SalesWebMvc.Migrations
 
             migrationBuilder.CreateIndex(
                 name: "IX_SalessRecord_Sellerid",
-                table: "SalessRecord",
+                table: "SalesRecord",
                 column: "Sellerid");
 
             migrationBuilder.CreateIndex(
@@ -67,10 +67,10 @@ namespace SalesWebMvc.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "SalessRecord");
+                name: "SalesRecord");
 
             migrationBuilder.DropTable(
-                name: "seller");
+                name: "Seller");
         }
     }
 }
