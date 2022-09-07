@@ -43,3 +43,4 @@ D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMVC
 D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMVC\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Create.cshtml.g.cs
 D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMVC\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Delete.cshtml.g.cs
 D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMVC\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Details.cshtml.g.cs
+D:\!Documents\!Estudos\Poo\Capitulo 18 - Projeto Sistema Web\Project\SalesWebMVC\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Edit.cshtml.g.cs
