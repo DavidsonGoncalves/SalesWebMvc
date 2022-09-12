@@ -49,7 +49,7 @@ namespace SalesWebMvc.Migrations
 
                     b.HasIndex("Sellerid");
 
-                    b.ToTable("SalessRecord");
+                    b.ToTable("SalesRecord");
                 });
 
             modelBuilder.Entity("SalesWebMvc.Models.Seller", b =>

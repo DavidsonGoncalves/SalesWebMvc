@@ -44,9 +44,9 @@ namespace SalesWebMvc.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_SalessRecord", x => x.id);
+                    table.PrimaryKey("PK_SalesRecord", x => x.id);
                     table.ForeignKey(
-                        name: "FK_SalessRecord_seller_Sellerid",
+                        name: "FK_SalesRecord_seller_Sellerid",
                         column: x => x.Sellerid,
                         principalTable: "seller",
                         principalColumn: "id",
@@ -54,7 +54,7 @@ namespace SalesWebMvc.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_SalessRecord_Sellerid",
+                name: "IX_SalesRecord_Sellerid",
                 table: "SalesRecord",
                 column: "Sellerid");
 

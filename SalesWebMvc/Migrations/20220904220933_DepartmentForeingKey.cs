@@ -7,8 +7,8 @@ namespace SalesWebMvc.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
-                name: "FK_SalessRecord_seller_Sellerid",
-                table: "SalessRecord");
+                name: "FK_SalesRecord_seller_Sellerid",
+                table: "SalesRecord");
 
             migrationBuilder.DropForeignKey(
                 name: "FK_seller_Department_DepartmentId",
@@ -19,15 +19,15 @@ namespace SalesWebMvc.Migrations
                 table: "seller");
 
             migrationBuilder.DropPrimaryKey(
-                name: "PK_SalessRecord",
-                table: "SalessRecord");
+                name: "PK_SalesRecord",
+                table: "SalesRecord");
 
             migrationBuilder.RenameTable(
                 name: "seller",
                 newName: "Seller");
 
             migrationBuilder.RenameTable(
-                name: "SalessRecord",
+                name: "SalesRecord",
                 newName: "SalesRecord");
 
             migrationBuilder.RenameColumn(
@@ -41,7 +41,7 @@ namespace SalesWebMvc.Migrations
                 newName: "IX_Seller_DepartmentID");
 
             migrationBuilder.RenameIndex(
-                name: "IX_SalessRecord_Sellerid",
+                name: "IX_SalesRecord_Sellerid",
                 table: "SalesRecord",
                 newName: "IX_SalesRecord_Sellerid");
 
@@ -103,7 +103,7 @@ namespace SalesWebMvc.Migrations
 
             migrationBuilder.RenameTable(
                 name: "SalesRecord",
-                newName: "SalessRecord");
+                newName: "SalesRecord");
 
             migrationBuilder.RenameColumn(
                 name: "DepartmentID",
@@ -117,8 +117,8 @@ namespace SalesWebMvc.Migrations
 
             migrationBuilder.RenameIndex(
                 name: "IX_SalesRecord_Sellerid",
-                table: "SalessRecord",
-                newName: "IX_SalessRecord_Sellerid");
+                table: "SalesRecord",
+                newName: "IX_SalesRecord_Sellerid");
 
             migrationBuilder.AlterColumn<int>(
                 name: "DepartmentId",
@@ -132,13 +132,13 @@ namespace SalesWebMvc.Migrations
                 column: "id");
 
             migrationBuilder.AddPrimaryKey(
-                name: "PK_SalessRecord",
-                table: "SalessRecord",
+                name: "PK_SalesRecord",
+                table: "SalesRecord",
                 column: "id");
 
             migrationBuilder.AddForeignKey(
-                name: "FK_SalessRecord_seller_Sellerid",
-                table: "SalessRecord",
+                name: "FK_SalesRecord_seller_Sellerid",
+                table: "SalesRecord",
                 column: "Sellerid",
                 principalTable: "seller",
                 principalColumn: "id",
